@@ -1,0 +1,102 @@
+[
+  {
+    "id": "q1",
+    "question": "What is 15 + 27?",
+    "options": ["40", "42", "45", "47"],
+    "correct_answer": "42",
+    "explanation": "15 + 27 = 42. Add the ones: 5 + 7 = 12 (write 2, carry 1). Add the tens: 1 + 2 + 1 = 4. Result: 42",
+    "difficulty": "easy",
+    "class_level": 3,
+    "topic": "Addition"
+  },
+  {
+    "id": "q2",
+    "question": "If a rectangle has length 8 cm and width 5 cm, what is its area?",
+    "options": ["13 cm²", "26 cm²", "40 cm²", "45 cm²"],
+    "correct_answer": "40 cm²",
+    "explanation": "Area of rectangle = length × width = 8 × 5 = 40 cm²",
+    "difficulty": "medium",
+    "class_level": 5,
+    "topic": "Geometry"
+  },
+  {
+    "id": "q3",
+    "question": "Solve for x: 2x + 5 = 15",
+    "options": ["x = 3", "x = 5", "x = 7", "x = 10"],
+    "correct_answer": "x = 5",
+    "explanation": "2x + 5 = 15. Subtract 5: 2x = 10. Divide by 2: x = 5",
+    "difficulty": "medium",
+    "class_level": 7,
+    "topic": "Algebra"
+  },
+  {
+    "id": "q4",
+    "question": "What is the value of π (pi) approximately?",
+    "options": ["3.14", "3.41", "3.24", "3.12"],
+    "correct_answer": "3.14",
+    "explanation": "π (pi) is approximately 3.14159..., commonly rounded to 3.14",
+    "difficulty": "easy",
+    "class_level": 6,
+    "topic": "Geometry"
+  },
+  {
+    "id": "q5",
+    "question": "Find the square root of 144",
+    "options": ["11", "12", "13", "14"],
+    "correct_answer": "12",
+    "explanation": "√144 = 12 because 12 × 12 = 144",
+    "difficulty": "medium",
+    "class_level": 8,
+    "topic": "Square Roots"
+  },
+  {
+    "id": "q6",
+    "question": "What is 7 × 8?",
+    "options": ["54", "56", "58", "60"],
+    "correct_answer": "56",
+    "explanation": "7 × 8 = 56. This is a basic multiplication fact.",
+    "difficulty": "easy",
+    "class_level": 4,
+    "topic": "Multiplication"
+  },
+  {
+    "id": "q7",
+    "question": "Convert 2.5 hours to minutes",
+    "options": ["120 minutes", "130 minutes", "150 minutes", "160 minutes"],
+    "correct_answer": "150 minutes",
+    "explanation": "2.5 hours = 2.5 × 60 = 150 minutes",
+    "difficulty": "medium",
+    "class_level": 6,
+    "topic": "Time Conversion"
+  },
+  {
+    "id": "q8",
+    "question": "What is 25% of 80?",
+    "options": ["15", "20", "25", "30"],
+    "correct_answer": "20",
+    "explanation": "25% of 80 = (25/100) × 80 = 0.25 × 80 = 20",
+    "difficulty": "medium",
+    "class_level": 7,
+    "topic": "Percentages"
+  },
+  {
+    "id": "q9",
+    "question": "If the sum of three consecutive integers is 21, what is the middle integer?",
+    "options": ["6", "7", "8", "9"],
+    "correct_answer": "7",
+    "explanation": "Let the integers be x, x+1, x+2. Then x + (x+1) + (x+2) = 21, so 3x + 3 = 21, 3x = 18, x = 6. The middle integer is 7.",
+    "difficulty": "hard",
+    "class_level": 9,
+    "topic": "Algebra"
+  },
+  {
+    "id": "q10",
+    "question": "What is the circumference of a circle with radius 7 cm? (Use π = 3.14)",
+    "options": ["21.98 cm", "43.96 cm", "49.14 cm", "153.86 cm"],
+    "correct_answer": "43.96 cm",
+    "explanation": "Circumference = 2πr = 2 × 3.14 × 7 = 43.96 cm",
+    "difficulty": "medium",
+    "class_level": 8,
+    "topic": "Geometry"
+  }
+]

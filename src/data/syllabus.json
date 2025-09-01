@@ -1,0 +1,86 @@
+[
+  {
+    "id": "class1",
+    "class_level": 1,
+    "subject": "Mathematics",
+    "chapter": "Numbers",
+    "topics": ["Counting 1-20", "Number Recognition", "Before and After", "Greater and Smaller"]
+  },
+  {
+    "id": "class2",
+    "class_level": 2,
+    "subject": "Mathematics", 
+    "chapter": "Addition and Subtraction",
+    "topics": ["Addition up to 99", "Subtraction up to 99", "Word Problems", "Mental Math"]
+  },
+  {
+    "id": "class3",
+    "class_level": 3,
+    "subject": "Mathematics",
+    "chapter": "Multiplication and Division",
+    "topics": ["Tables 2-10", "Simple Division", "Fractions", "Basic Geometry"]
+  },
+  {
+    "id": "class4",
+    "class_level": 4,
+    "subject": "Mathematics",
+    "chapter": "Numbers and Operations",
+    "topics": ["Large Numbers", "Factors and Multiples", "Fractions", "Decimals", "Basic Algebra"]
+  },
+  {
+    "id": "class5",
+    "class_level": 5,
+    "subject": "Mathematics",
+    "chapter": "Geometry and Measurement",
+    "topics": ["Perimeter and Area", "Volume", "Angles", "Symmetry", "Data Handling"]
+  },
+  {
+    "id": "class6",
+    "class_level": 6,
+    "subject": "Mathematics",
+    "chapter": "Algebra and Geometry", 
+    "topics": ["Integers", "Fractions and Decimals", "Basic Geometry", "Mensuration", "Data Handling"]
+  },
+  {
+    "id": "class7",
+    "class_level": 7,
+    "subject": "Mathematics",
+    "chapter": "Advanced Concepts",
+    "topics": ["Integers", "Fractions and Decimals", "Simple Equations", "Lines and Angles", "Triangles"]
+  },
+  {
+    "id": "class8",
+    "class_level": 8,
+    "subject": "Mathematics",
+    "chapter": "Algebra and Geometry",
+    "topics": ["Rational Numbers", "Linear Equations", "Quadrilaterals", "Mensuration", "Statistics"]
+  },
+  {
+    "id": "class9",
+    "class_level": 9,
+    "subject": "Mathematics",
+    "chapter": "Real Numbers and Polynomials",
+    "topics": ["Number Systems", "Polynomials", "Coordinate Geometry", "Linear Equations", "Euclid's Geometry"]
+  },
+  {
+    "id": "class10",
+    "class_level": 10,
+    "subject": "Mathematics",
+    "chapter": "Advanced Mathematics",
+    "topics": ["Real Numbers", "Polynomials", "Linear Equations", "Quadratic Equations", "Trigonometry", "Statistics"]
+  },
+  {
+    "id": "class11",
+    "class_level": 11,
+    "subject": "Mathematics",
+    "chapter": "Calculus and Advanced Topics",
+    "topics": ["Sets", "Relations and Functions", "Trigonometry", "Complex Numbers", "Linear Inequalities", "Conic Sections"]
+  },
+  {
+    "id": "class12",
+    "class_level": 12,
+    "subject": "Mathematics",
+    "chapter": "Higher Mathematics",
+    "topics": ["Relations and Functions", "Algebra", "Calculus", "Vectors", "3D Geometry", "Probability"]
+  }
+]
