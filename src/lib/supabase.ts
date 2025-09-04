@@ -25,9 +25,11 @@ export type Database = {
           phone?: string;
           name: string;
           class_level: number;
-          stars: number;
+          money: number;
           total_correct: number;
           total_wrong: number;
+          avatar_id: number;
+          unlocked_levels: number[];
           created_at: string;
         };
         Insert: {
@@ -36,9 +38,11 @@ export type Database = {
           phone?: string;
           name: string;
           class_level: number;
-          stars?: number;
+          money?: number;
           total_correct?: number;
           total_wrong?: number;
+          avatar_id?: number;
+          unlocked_levels?: number[];
           created_at?: string;
         };
         Update: {
@@ -47,9 +51,11 @@ export type Database = {
           phone?: string;
           name?: string;
           class_level?: number;
-          stars?: number;
+          money?: number;
           total_correct?: number;
           total_wrong?: number;
+          avatar_id?: number;
+          unlocked_levels?: number[];
         };
       };
       quiz_attempts: {
@@ -58,7 +64,7 @@ export type Database = {
           user_id: string;
           score: number;
           total_questions: number;
-          stars_earned: number;
+          money_earned: number;
           completed_at: string;
         };
         Insert: {
@@ -66,14 +72,14 @@ export type Database = {
           user_id: string;
           score: number;
           total_questions: number;
-          stars_earned: number;
+          money_earned: number;
           completed_at?: string;
         };
         Update: {
           id?: string;
           score?: number;
           total_questions?: number;
-          stars_earned?: number;
+          money_earned?: number;
         };
       };
     };

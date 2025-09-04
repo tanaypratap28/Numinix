@@ -40,7 +40,15 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
       }
       onClose();
     } catch (err: any) {
-      setError(err.message);
+      if (isSignUp && err?.message?.toLowerCase().includes('already registered')) {
+        setError('This email is already registered. Please sign in or use a different email.');
+      } else if (isSignUp && err?.message?.toLowerCase().includes('duplicate key value')) {
+        setError('This email is already registered. Please sign in or use a different email.');
+      } else if (isSignUp && err?.message?.toLowerCase().includes('user already exists')) {
+        setError('This email is already registered. Please sign in or use a different email.');
+      } else {
+        setError(err.message);
+      }
     } finally {
       setLoading(false);
     }

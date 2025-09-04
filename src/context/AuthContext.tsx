@@ -10,7 +10,8 @@ interface AuthContextType {
   signUp: (email: string, password: string, userData: Partial<User>) => Promise<void>;
   signIn: (email: string, password: string) => Promise<void>;
   signOut: () => Promise<void>;
-  updateUserStats: (correct: number, wrong: number, stars: number) => Promise<void>;
+  updateUserStats: (correct: number, wrong: number, money: number) => Promise<void>;
+  updateUserProfile: (updates: Partial<User>) => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -48,7 +49,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const fetchUserProfile = async (userId: string) => {
     try {
       const { data, error } = await supabase
-            .from('profiles')
+        .from('profiles')
         .select('*')
         .eq('id', userId)
         .single();
@@ -70,15 +71,17 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
     if (data.user) {
       const { error: profileError } = await supabase
-            .from('profiles')
+        .from('profiles')
         .insert({
           id: data.user.id,
           email,
           name: userData.name || '',
           class_level: userData.class_level || 1,
-          stars: 0,
+          money: 0,
           total_correct: 0,
           total_wrong: 0,
+          avatar_id: 1,
+          unlocked_levels: [1],
         });
 
       if (profileError) throw profileError;
@@ -95,28 +98,60 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   };
 
   const signOut = async () => {
-  const { error } = await supabase.auth.signOut();
-  if (error) throw error;
-  setUser(null);
-  setUserProfile(null);
-  // No reload, let AppContent handle redirect
+    try {
+      const session = (await supabase.auth.getSession()).data.session;
+      if (session) {
+        const { error } = await supabase.auth.signOut();
+        if (error) throw error;
+      }
+      setUser(null);
+      setUserProfile(null);
+    } catch (err) {
+      setUser(null);
+      setUserProfile(null);
+      console.error('Sign out error:', err);
+    }
   };
 
-  const updateUserStats = async (correct: number, wrong: number, stars: number) => {
+  const updateUserStats = async (correct: number, wrong: number, money: number) => {
     if (!user) return;
 
+    const newTotalCorrect = (userProfile?.total_correct || 0) + correct;
+    const newTotalWrong = (userProfile?.total_wrong || 0) + wrong;
+    const newMoney = (userProfile?.money || 0) + money;
+
     const { error } = await supabase
-            .from('profiles')
+      .from('profiles')
       .update({
-        total_correct: (userProfile?.total_correct || 0) + correct,
-        total_wrong: (userProfile?.total_wrong || 0) + wrong,
-        stars: (userProfile?.stars || 0) + stars,
+        total_correct: newTotalCorrect,
+        total_wrong: newTotalWrong,
+        money: newMoney,
       })
       .eq('id', user.id);
 
     if (error) throw error;
-    
-    // Refresh user profile
+
+    setUserProfile((prev) => prev ? { 
+      ...prev, 
+      total_correct: newTotalCorrect, 
+      total_wrong: newTotalWrong, 
+      money: newMoney 
+    } : prev);
+
+    fetchUserProfile(user.id);
+  };
+
+  const updateUserProfile = async (updates: Partial<User>) => {
+    if (!user) return;
+
+    const { error } = await supabase
+      .from('profiles')
+      .update(updates)
+      .eq('id', user.id);
+
+    if (error) throw error;
+
+    setUserProfile((prev) => prev ? { ...prev, ...updates } : prev);
     fetchUserProfile(user.id);
   };
 
@@ -129,6 +164,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       signIn,
       signOut,
       updateUserStats,
+      updateUserProfile,
     }}>
       {children}
     </AuthContext.Provider>

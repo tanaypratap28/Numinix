@@ -1,12 +1,11 @@
-import React from 'react';
-import { DivideIcon as LucideIcon } from 'lucide-react';
 
 interface GameCardProps {
   title: string;
   description: string;
-  icon: LucideIcon;
+  icon: React.ComponentType<{ className?: string }>;
   color: string;
   component: string;
+  onPlay?: () => void;
 }
 
 const colorClasses = {
@@ -16,10 +15,13 @@ const colorClasses = {
   orange: 'from-orange-500 to-orange-600',
 };
 
-export function GameCard({ title, description, icon: Icon, color, component }: GameCardProps) {
+export function GameCard({ title, description, icon: Icon, color, component, onPlay }: GameCardProps) {
   const handleClick = () => {
-    // For now, show coming soon message
-    alert(`${title} is coming soon! We're working hard to bring you the best gaming experience.`);
+    if (typeof onPlay === 'function') {
+      onPlay();
+    } else {
+      alert(`${title} is coming soon! We're working hard to bring you the best gaming experience.`);
+    }
   };
 
   return (

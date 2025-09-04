@@ -13,68 +13,876 @@
     "chapter": "Addition and Subtraction",
     "topics": ["Addition up to 99", "Subtraction up to 99", "Word Problems", "Mental Math"]
   },
+  [
   {
-    "id": "class3",
+    "id": "class3_unit1",
     "class_level": 3,
     "subject": "Mathematics",
-    "chapter": "Multiplication and Division",
-    "topics": ["Tables 2-10", "Simple Division", "Fractions", "Basic Geometry"]
+    "unit": "Unit 1: Numbers and Operations",
+    "chapter": "Chapter 1: Numbers up to 9999",
+    "topics": ["Place Value", "Expanded Form", "Comparison", "Ordering"]
   },
   {
-    "id": "class4",
+    "id": "class3_unit1_ch2",
+    "class_level": 3,
+    "subject": "Mathematics",
+    "unit": "Unit 1: Numbers and Operations",
+    "chapter": "Chapter 2: Addition and Subtraction",
+    "topics": ["Addition with Carrying", "Subtraction with Borrowing", "Word Problems"]
+  },
+  {
+    "id": "class3_unit1_ch3",
+    "class_level": 3,
+    "subject": "Mathematics",
+    "unit": "Unit 1: Numbers and Operations",
+    "chapter": "Chapter 3: Multiplication",
+    "topics": ["Tables 2–10", "Repeated Addition", "Word Problems"]
+  },
+  {
+    "id": "class3_unit1_ch4",
+    "class_level": 3,
+    "subject": "Mathematics",
+    "unit": "Unit 1: Numbers and Operations",
+    "chapter": "Chapter 4: Division",
+    "topics": ["Sharing and Grouping", "Division Facts", "Word Problems"]
+  },
+  {
+    "id": "class3_unit2",
+    "class_level": 3,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Fractions and Measurement",
+    "chapter": "Chapter 5: Fractions",
+    "topics": ["Halves and Quarters", "Equal Parts", "Simple Comparison"]
+  },
+  {
+    "id": "class3_unit2_ch6",
+    "class_level": 3,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Fractions and Measurement",
+    "chapter": "Chapter 6: Measurement",
+    "topics": ["Length", "Weight", "Capacity", "Units of Measurement"]
+  },
+  {
+    "id": "class3_unit2_ch7",
+    "class_level": 3,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Fractions and Measurement",
+    "chapter": "Chapter 7: Time and Money",
+    "topics": ["Reading Clocks", "Calendar", "Money Transactions"]
+  },
+  {
+    "id": "class3_unit3",
+    "class_level": 3,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Geometry and Patterns",
+    "chapter": "Chapter 8: Shapes and Spatial Understanding",
+    "topics": ["2D and 3D Shapes", "Faces and Edges", "Patterns in Shapes"]
+  },
+  {
+    "id": "class3_unit3_ch9",
+    "class_level": 3,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Geometry and Patterns",
+    "chapter": "Chapter 9: Patterns",
+    "topics": ["Number Patterns", "Geometric Patterns", "Logical Sequences"]
+  },
+  {
+    "id": "class3_unit4",
+    "class_level": 3,
+    "subject": "Mathematics",
+    "unit": "Unit 4: Data Handling",
+    "chapter": "Chapter 10: Data Handling",
+    "topics": ["Tally Marks", "Pictographs", "Simple Bar Graphs"]
+  }
+],
+  [
+  {
+    "id": "class4_unit1",
     "class_level": 4,
     "subject": "Mathematics",
-    "chapter": "Numbers and Operations",
-    "topics": ["Large Numbers", "Factors and Multiples", "Fractions", "Decimals", "Basic Algebra"]
+    "unit": "Unit 1: Numbers and Operations",
+    "chapter": "Chapter 1: Large Numbers",
+    "topics": ["Reading and Writing Numbers", "Place Value", "Comparison", "Estimation"]
   },
   {
-    "id": "class5",
+    "id": "class4_unit1_ch2",
+    "class_level": 4,
+    "subject": "Mathematics",
+    "unit": "Unit 1: Numbers and Operations",
+    "chapter": "Chapter 2: Addition and Subtraction",
+    "topics": ["Addition of Large Numbers", "Subtraction with Borrowing", "Word Problems"]
+  },
+  {
+    "id": "class4_unit1_ch3",
+    "class_level": 4,
+    "subject": "Mathematics",
+    "unit": "Unit 1: Numbers and Operations",
+    "chapter": "Chapter 3: Multiplication and Division",
+    "topics": ["Multiplication Facts", "Division Concepts", "Word Problems"]
+  },
+  {
+    "id": "class4_unit2",
+    "class_level": 4,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Fractions and Decimals",
+    "chapter": "Chapter 4: Fractions",
+    "topics": ["Types of Fractions", "Equivalent Fractions", "Simple Operations"]
+  },
+  {
+    "id": "class4_unit2_ch5",
+    "class_level": 4,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Fractions and Decimals",
+    "chapter": "Chapter 5: Decimals",
+    "topics": ["Understanding Tenths and Hundredths", "Conversion", "Addition and Subtraction"]
+  },
+  {
+    "id": "class4_unit3",
+    "class_level": 4,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Geometry",
+    "chapter": "Chapter 6: Shapes and Patterns",
+    "topics": ["2D and 3D Shapes", "Symmetry", "Patterns in Shapes"]
+  },
+  {
+    "id": "class4_unit3_ch7",
+    "class_level": 4,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Geometry",
+    "chapter": "Chapter 7: Lines and Angles",
+    "topics": ["Types of Lines", "Types of Angles", "Measuring Angles"]
+  },
+  {
+    "id": "class4_unit4",
+    "class_level": 4,
+    "subject": "Mathematics",
+    "unit": "Unit 4: Measurement",
+    "chapter": "Chapter 8: Length, Weight and Capacity",
+    "topics": ["Standard Units", "Conversion", "Word Problems"]
+  },
+  {
+    "id": "class4_unit4_ch9",
+    "class_level": 4,
+    "subject": "Mathematics",
+    "unit": "Unit 4: Measurement",
+    "chapter": "Chapter 9: Time and Money",
+    "topics": ["Reading Clocks", "Time Calculations", "Money Transactions"]
+  },
+  {
+    "id": "class4_unit5",
+    "class_level": 4,
+    "subject": "Mathematics",
+    "unit": "Unit 5: Data Handling",
+    "chapter": "Chapter 10: Data Handling",
+    "topics": ["Tally Marks", "Bar Graphs", "Interpretation"]
+  },
+  {
+    "id": "class4_unit6",
+    "class_level": 4,
+    "subject": "Mathematics",
+    "unit": "Unit 6: Patterns and Reasoning",
+    "chapter": "Chapter 11: Patterns",
+    "topics": ["Number Patterns", "Geometric Patterns", "Logical Sequences"]
+  }
+],
+  [
+  {
+    "id": "class5_unit1",
     "class_level": 5,
     "subject": "Mathematics",
-    "chapter": "Geometry and Measurement",
-    "topics": ["Perimeter and Area", "Volume", "Angles", "Symmetry", "Data Handling"]
+    "unit": "Unit 1: Numbers and Operations",
+    "chapter": "Chapter 1: Large Numbers",
+    "topics": ["Reading and Writing Numbers", "Place Value", "Comparison", "Estimation"]
   },
   {
-    "id": "class6",
+    "id": "class5_unit1_ch2",
+    "class_level": 5,
+    "subject": "Mathematics",
+    "unit": "Unit 1: Numbers and Operations",
+    "chapter": "Chapter 2: Factors and Multiples",
+    "topics": ["Prime and Composite Numbers", "Even and Odd", "LCM and HCF"]
+  },
+  {
+    "id": "class5_unit1_ch3",
+    "class_level": 5,
+    "subject": "Mathematics",
+    "unit": "Unit 1: Numbers and Operations",
+    "chapter": "Chapter 3: Fractions",
+    "topics": ["Types of Fractions", "Equivalent Fractions", "Addition and Subtraction"]
+  },
+  {
+    "id": "class5_unit1_ch4",
+    "class_level": 5,
+    "subject": "Mathematics",
+    "unit": "Unit 1: Numbers and Operations",
+    "chapter": "Chapter 4: Decimals",
+    "topics": ["Place Value", "Conversion", "Addition and Subtraction"]
+  },
+  {
+    "id": "class5_unit2",
+    "class_level": 5,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Geometry",
+    "chapter": "Chapter 5: Perimeter and Area",
+    "topics": ["Perimeter of Regular Shapes", "Area of Rectangle and Square", "Word Problems"]
+  },
+  {
+    "id": "class5_unit2_ch6",
+    "class_level": 5,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Geometry",
+    "chapter": "Chapter 6: Volume",
+    "topics": ["Volume of Cube and Cuboid", "Units of Measurement", "Applications"]
+  },
+  {
+    "id": "class5_unit2_ch7",
+    "class_level": 5,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Geometry",
+    "chapter": "Chapter 7: Angles",
+    "topics": ["Types of Angles", "Measuring Angles", "Drawing Angles"]
+  },
+  {
+    "id": "class5_unit2_ch8",
+    "class_level": 5,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Geometry",
+    "chapter": "Chapter 8: Symmetry",
+    "topics": ["Line of Symmetry", "Mirror Images", "Patterns"]
+  },
+  {
+    "id": "class5_unit3",
+    "class_level": 5,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Data and Handling",
+    "chapter": "Chapter 9: Data Handling",
+    "topics": ["Tally Marks", "Bar Graphs", "Interpretation of Data"]
+  },
+  {
+    "id": "class5_unit4",
+    "class_level": 5,
+    "subject": "Mathematics",
+    "unit": "Unit 4: Patterns and Reasoning",
+    "chapter": "Chapter 10: Patterns",
+    "topics": ["Number Patterns", "Geometric Patterns", "Logical Sequences"]
+  }],
+  {
+    "id": "class6_unit1",
     "class_level": 6,
     "subject": "Mathematics",
-    "chapter": "Algebra and Geometry", 
-    "topics": ["Integers", "Fractions and Decimals", "Basic Geometry", "Mensuration", "Data Handling"]
+    "unit": "Unit 1: Number Systems",
+    "chapter": "Chapter 1: Knowing Our Numbers",
+    "topics": ["Large Numbers", "Place Value", "Estimation", "Roman Numerals"]
   },
   {
-    "id": "class7",
+    "id": "class6_unit1_ch2",
+    "class_level": 6,
+    "subject": "Mathematics",
+    "unit": "Unit 1: Number Systems",
+    "chapter": "Chapter 2: Whole Numbers",
+    "topics": ["Properties of Whole Numbers", "Number Line", "Patterns"]
+  },
+  {
+    "id": "class6_unit1_ch3",
+    "class_level": 6,
+    "subject": "Mathematics",
+    "unit": "Unit 1: Number Systems",
+    "chapter": "Chapter 3: Playing with Numbers",
+    "topics": ["Factors and Multiples", "Prime and Composite Numbers", "Divisibility Rules"]
+  },
+  {
+    "id": "class6_unit2",
+    "class_level": 6,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Fractions and Decimals",
+    "chapter": "Chapter 4: Basic Fractions",
+    "topics": ["Types of Fractions", "Equivalent Fractions", "Operations on Fractions"]
+  },
+  {
+    "id": "class6_unit2_ch5",
+    "class_level": 6,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Fractions and Decimals",
+    "chapter": "Chapter 5: Decimals",
+    "topics": ["Place Value", "Addition and Subtraction", "Conversion Between Fractions and Decimals"]
+  },
+  {
+    "id": "class6_unit3",
+    "class_level": 6,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Algebra and Geometry",
+    "chapter": "Chapter 6: Introduction to Algebra",
+    "topics": ["Use of Variables", "Simple Expressions", "Substitution"]
+  },
+  {
+    "id": "class6_unit3_ch7",
+    "class_level": 6,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Algebra and Geometry",
+    "chapter": "Chapter 7: Basic Geometry",
+    "topics": ["Points, Lines, and Angles", "Types of Angles", "Measuring Angles"]
+  },
+  {
+    "id": "class6_unit3_ch8",
+    "class_level": 6,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Algebra and Geometry",
+    "chapter": "Chapter 8: Understanding Shapes",
+    "topics": ["2D and 3D Shapes", "Edges, Faces, and Vertices", "Nets of Solids"]
+  },
+  {
+    "id": "class6_unit4",
+    "class_level": 6,
+    "subject": "Mathematics",
+    "unit": "Unit 4: Mensuration",
+    "chapter": "Chapter 9: Perimeter and Area",
+    "topics": ["Perimeter of Simple Shapes", "Area of Rectangle and Square", "Applications"]
+  },
+  {
+    "id": "class6_unit5",
+    "class_level": 6,
+    "subject": "Mathematics",
+    "unit": "Unit 5: Data Handling",
+    "chapter": "Chapter 10: Data Handling",
+    "topics": ["Collection and Organization", "Pictographs", "Bar Graphs"]
+  },
+  {
+    "id": "class6_unit6",
+    "class_level": 6,
+    "subject": "Mathematics",
+    "unit": "Unit 6: Integers",
+    "chapter": "Chapter 11: Integers",
+    "topics": ["Representation on Number Line", "Addition and Subtraction", "Properties"]
+  },
+  {
+    "id": "class6_unit7",
+    "class_level": 6,
+    "subject": "Mathematics",
+    "unit": "Unit 7: Practical Geometry",
+    "chapter": "Chapter 12: Practical Geometry",
+    "topics": ["Using Ruler and Compass", "Drawing Angles", "Constructing Shapes"]
+  },
+  {
+    "id": "class7_unit1",
     "class_level": 7,
     "subject": "Mathematics",
-    "chapter": "Advanced Concepts",
-    "topics": ["Integers", "Fractions and Decimals", "Simple Equations", "Lines and Angles", "Triangles"]
+    "unit": "Unit 1: Integers and Rational Numbers",
+    "chapter": "Chapter 1: Integers",
+    "topics": ["Properties of Integers", "Addition and Subtraction", "Multiplication and Division"]
   },
   {
-    "id": "class8",
+    "id": "class7_unit1_ch2",
+    "class_level": 7,
+    "subject": "Mathematics",
+    "unit": "Unit 1: Integers and Rational Numbers",
+    "chapter": "Chapter 2: Fractions and Decimals",
+    "topics": ["Operations on Fractions", "Operations on Decimals", "Applications"]
+  },
+  {
+    "id": "class7_unit2",
+    "class_level": 7,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Algebra",
+    "chapter": "Chapter 3: Simple Equations",
+    "topics": ["Solving Equations", "Applications", "Word Problems"]
+  },
+  {
+    "id": "class7_unit3",
+    "class_level": 7,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Geometry",
+    "chapter": "Chapter 4: Lines and Angles",
+    "topics": ["Types of Angles", "Properties of Lines", "Angle Relationships"]
+  },
+  {
+    "id": "class7_unit3_ch5",
+    "class_level": 7,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Geometry",
+    "chapter": "Chapter 5: Triangles and Their Properties",
+    "topics": ["Types of Triangles", "Angle Sum Property", "Median and Altitude", "Pythagoras Theorem"]
+  },
+  {
+    "id": "class7_unit3_ch6",
+    "class_level": 7,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Geometry",
+    "chapter": "Chapter 6: Congruence of Triangles",
+    "topics": ["Criteria for Congruence", "Applications"]
+  },
+  {
+    "id": "class7_unit3_ch7",
+    "class_level": 7,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Geometry",
+    "chapter": "Chapter 7: Comparing Quantities",
+    "topics": ["Ratios and Proportions", "Percentage", "Profit and Loss", "Simple Interest"]
+  },
+  {
+    "id": "class7_unit4",
+    "class_level": 7,
+    "subject": "Mathematics",
+    "unit": "Unit 4: Data Handling",
+    "chapter": "Chapter 8: Data Handling",
+    "topics": ["Collection of Data", "Bar Graphs", "Chance and Probability"]
+  },
+  {
+    "id": "class7_unit5",
+    "class_level": 7,
+    "subject": "Mathematics",
+    "unit": "Unit 5: Mensuration",
+    "chapter": "Chapter 9: Mensuration",
+    "topics": ["Perimeter and Area", "Surface Area", "Volume of Solids"]
+  },
+  {
+    "id": "class7_unit6",
+    "class_level": 7,
+    "subject": "Mathematics",
+    "unit": "Unit 6: Algebraic Expressions",
+    "chapter": "Chapter 10: Algebraic Expressions",
+    "topics": ["Terms, Factors, Coefficients", "Addition and Subtraction", "Applications"]
+  },
+  {
+    "id": "class7_unit7",
+    "class_level": 7,
+    "subject": "Mathematics",
+    "unit": "Unit 7: Exponents and Powers",
+    "chapter": "Chapter 11: Exponents and Powers",
+    "topics": ["Laws of Exponents", "Standard Form", "Applications"]
+  },
+  {
+    "id": "class7_unit8",
+    "class_level": 7,
+    "subject": "Mathematics",
+    "unit": "Unit 8: Practical Geometry",
+    "chapter": "Chapter 12: Practical Geometry",
+    "topics": ["Construction of Triangles", "Using Ruler and Compass", "Angle Construction"]
+  },
+  {
+    "id": "class8_unit1",
     "class_level": 8,
     "subject": "Mathematics",
-    "chapter": "Algebra and Geometry",
-    "topics": ["Rational Numbers", "Linear Equations", "Quadrilaterals", "Mensuration", "Statistics"]
+    "unit": "Unit 1: Number Systems",
+    "chapter": "Chapter 1: Rational Numbers",
+    "topics": ["Properties of Rational Numbers", "Representation on Number Line", "Operations on Rational Numbers"]
   },
   {
-    "id": "class9",
+    "id": "class8_unit2",
+    "class_level": 8,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Algebra",
+    "chapter": "Chapter 2: Linear Equations in One Variable",
+    "topics": ["Solving Equations", "Applications", "Word Problems"]
+  },
+  {
+    "id": "class8_unit3",
+    "class_level": 8,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Geometry",
+    "chapter": "Chapter 3: Understanding Quadrilaterals",
+    "topics": ["Types of Quadrilaterals", "Properties", "Angle Sum Property"]
+  },
+  {
+    "id": "class8_unit3_ch4",
+    "class_level": 8,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Geometry",
+    "chapter": "Chapter 4: Practical Geometry",
+    "topics": ["Construction of Quadrilaterals", "Using Scale and Compass"]
+  },
+  {
+    "id": "class8_unit3_ch5",
+    "class_level": 8,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Geometry",
+    "chapter": "Chapter 5: Visualizing Solid Shapes",
+    "topics": ["3D Objects", "Nets of Solids", "Views of Solids"]
+  },
+  {
+    "id": "class8_unit4",
+    "class_level": 8,
+    "subject": "Mathematics",
+    "unit": "Unit 4: Mensuration",
+    "chapter": "Chapter 6: Mensuration",
+    "topics": ["Surface Area of Cube and Cuboid", "Volume of Cube and Cuboid", "Applications"]
+  },
+  {
+    "id": "class8_unit5",
+    "class_level": 8,
+    "subject": "Mathematics",
+    "unit": "Unit 5: Data Handling",
+    "chapter": "Chapter 7: Data Handling",
+    "topics": ["Bar Graphs", "Pie Charts", "Probability Basics"]
+  },
+  {
+    "id": "class8_unit6",
+    "class_level": 8,
+    "subject": "Mathematics",
+    "unit": "Unit 6: Algebraic Expressions",
+    "chapter": "Chapter 8: Algebraic Expressions and Identities",
+    "topics": ["Types of Expressions", "Addition and Subtraction", "Standard Identities"]
+  },
+  {
+    "id": "class8_unit7",
+    "class_level": 8,
+    "subject": "Mathematics",
+    "unit": "Unit 7: Comparing Quantities",
+    "chapter": "Chapter 9: Comparing Quantities",
+    "topics": ["Percentage", "Profit and Loss", "Simple and Compound Interest"]
+  },
+  {
+    "id": "class8_unit8",
+    "class_level": 8,
+    "subject": "Mathematics",
+    "unit": "Unit 8: Exponents and Powers",
+    "chapter": "Chapter 10: Exponents and Powers",
+    "topics": ["Laws of Exponents", "Scientific Notation", "Applications"]
+  },
+  {
+    "id": "class8_unit9",
+    "class_level": 8,
+    "subject": "Mathematics",
+    "unit": "Unit 9: Direct and Inverse Proportions",
+    "chapter": "Chapter 11: Direct and Inverse Proportions",
+    "topics": ["Concepts", "Word Problems", "Applications"]
+  },
+  {
+    "id": "class8_unit10",
+    "class_level": 8,
+    "subject": "Mathematics",
+    "unit": "Unit 10: Factorization",
+    "chapter": "Chapter 12: Factorization",
+    "topics": ["Common Factors", "Algebraic Identities", "Division of Polynomials"]
+  },
+  {
+    "id": "class8_unit11",
+    "class_level": 8,
+    "subject": "Mathematics",
+    "unit": "Unit 11: Introduction to Graphs",
+    "chapter": "Chapter 13: Introduction to Graphs",
+    "topics": ["Types of Graphs", "Plotting Points", "Interpreting Graphs"]
+  },
+  {
+    "id": "class8_unit12",
+    "class_level": 8,
+    "subject": "Mathematics",
+    "unit": "Unit 12: Playing with Numbers",
+    "chapter": "Chapter 14: Playing with Numbers",
+    "topics": ["Divisibility Rules", "Number Puzzles", "Cryptarithms"]
+  },
+
+  {
+    "id": "class9_unit1",
     "class_level": 9,
     "subject": "Mathematics",
-    "chapter": "Real Numbers and Polynomials",
-    "topics": ["Number Systems", "Polynomials", "Coordinate Geometry", "Linear Equations", "Euclid's Geometry"]
+    "unit": "Unit 1: Number Systems",
+    "chapter": "Chapter 1: Number Systems",
+    "topics": ["Real Numbers", "Irrational Numbers", "Rational Numbers", "Laws of Exponents"]
   },
   {
-    "id": "class10",
+    "id": "class9_unit2_ch2",
+    "class_level": 9,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Algebra",
+    "chapter": "Chapter 2: Polynomials",
+    "topics": ["Polynomials", "Zeros of a Polynomial", "Remainder Theorem", "Factorization"]
+  },
+  {
+    "id": "class9_unit2_ch4",
+    "class_level": 9,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Algebra",
+    "chapter": "Chapter 4: Linear Equations in Two Variables",
+    "topics": ["Linear Equations", "Graphical Representation", "Solutions"]
+  },
+  {
+    "id": "class9_unit3",
+    "class_level": 9,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Coordinate Geometry",
+    "chapter": "Chapter 3: Coordinate Geometry",
+    "topics": ["Cartesian System", "Plotting Points"]
+  },
+  {
+    "id": "class9_unit4_ch5",
+    "class_level": 9,
+    "subject": "Mathematics",
+    "unit": "Unit 4: Geometry",
+    "chapter": "Chapter 5: Introduction to Euclid's Geometry",
+    "topics": ["Euclid's Definitions", "Axioms and Postulates"]
+  },
+  {
+    "id": "class9_unit4_ch6",
+    "class_level": 9,
+    "subject": "Mathematics",
+    "unit": "Unit 4: Geometry",
+    "chapter": "Chapter 6: Lines and Angles",
+    "topics": ["Basic Terms", "Angles", "Parallel Lines"]
+  },
+  {
+    "id": "class9_unit4_ch7",
+    "class_level": 9,
+    "subject": "Mathematics",
+    "unit": "Unit 4: Geometry",
+    "chapter": "Chapter 7: Triangles",
+    "topics": ["Congruence of Triangles", "Inequalities of Triangles"]
+  },
+  {
+    "id": "class9_unit4_ch8",
+    "class_level": 9,
+    "subject": "Mathematics",
+    "unit": "Unit 4: Geometry",
+    "chapter": "Chapter 8: Quadrilaterals",
+    "topics": ["Types of Quadrilaterals", "Properties"]
+  },
+  {
+    "id": "class9_unit4_ch9",
+    "class_level": 9,
+    "subject": "Mathematics",
+    "unit": "Unit 4: Geometry",
+    "chapter": "Chapter 9: Circles",
+    "topics": ["Circle and Its Properties", "Angles Subtended by Chords"]
+  },
+  {
+    "id": "class9_unit5_ch10",
+    "class_level": 9,
+    "subject": "Mathematics",
+    "unit": "Unit 5: Mensuration",
+    "chapter": "Chapter 10: Heron's Formula",
+    "topics": ["Area of Triangle", "Application of Heron's Formula"]
+  },
+  {
+    "id": "class9_unit5_ch11",
+    "class_level": 9,
+    "subject": "Mathematics",
+    "unit": "Unit 5: Mensuration",
+    "chapter": "Chapter 11: Surface Areas and Volumes",
+    "topics": ["Surface Area", "Volume of Cube, Cuboid, Cylinder"]
+  },
+  {
+    "id": "class9_unit6",
+    "class_level": 9,
+    "subject": "Mathematics",
+    "unit": "Unit 6: Statistics",
+    "chapter": "Chapter 12: Statistics",
+    "topics": ["Collection of Data", "Presentation of Data", "Mean, Median, Mode"]
+  },
+  
+  {
+    "id": "class10_unit1",
     "class_level": 10,
     "subject": "Mathematics",
-    "chapter": "Advanced Mathematics",
-    "topics": ["Real Numbers", "Polynomials", "Linear Equations", "Quadratic Equations", "Trigonometry", "Statistics"]
+    "unit": "Unit 1: Number Systems",
+    "chapter": "Chapter 1: Real Numbers",
+    "topics": ["Euclid’s Division Lemma", "Fundamental Theorem of Arithmetic", "LCM and HCF", "Irrational Numbers", "Decimal Expansions"]
   },
   {
-    "id": "class11",
+    "id": "class10_unit2",
+    "class_level": 10,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Algebra",
+    "chapter": "Chapter 2: Polynomials",
+    "topics": ["Degree and Types", "Zeros of Polynomial", "Relationship Between Zeros and Coefficients", "Division Algorithm"]
+  },
+  {
+    "id": "class10_unit2_ch3",
+    "class_level": 10,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Algebra",
+    "chapter": "Chapter 3: Pair of Linear Equations in Two Variables",
+    "topics": ["Graphical Method", "Substitution Method", "Elimination Method", "Cross-Multiplication Method", "Applications"]
+  },
+  {
+    "id": "class10_unit2_ch4",
+    "class_level": 10,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Algebra",
+    "chapter": "Chapter 4: Quadratic Equations",
+    "topics": ["Standard Form", "Factorization Method", "Completing the Square", "Quadratic Formula", "Nature of Roots"]
+  },
+  {
+    "id": "class10_unit3",
+    "class_level": 10,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Geometry",
+    "chapter": "Chapter 5: Arithmetic Progressions",
+    "topics": ["Nth Term", "Sum of n Terms", "Applications"]
+  },
+  {
+    "id": "class10_unit4",
+    "class_level": 10,
+    "subject": "Mathematics",
+    "unit": "Unit 4: Geometry",
+    "chapter": "Chapter 6: Triangles",
+    "topics": ["Similarity of Triangles", "Criteria of Similarity", "Pythagoras Theorem", "Applications"]
+  },
+  {
+    "id": "class10_unit4_ch7",
+    "class_level": 10,
+    "subject": "Mathematics",
+    "unit": "Unit 4: Geometry",
+    "chapter": "Chapter 7: Circles",
+    "topics": ["Tangent to a Circle", "Number of Tangents", "Properties"]
+  },
+  {
+    "id": "class10_unit5",
+    "class_level": 10,
+    "subject": "Mathematics",
+    "unit": "Unit 5: Trigonometry",
+    "chapter": "Chapter 8: Introduction to Trigonometry",
+    "topics": ["Trigonometric Ratios", "Trigonometric Identities", "Applications"]
+  },
+  {
+    "id": "class10_unit5_ch9",
+    "class_level": 10,
+    "subject": "Mathematics",
+    "unit": "Unit 5: Trigonometry",
+    "chapter": "Chapter 9: Applications of Trigonometry",
+    "topics": ["Heights and Distances", "Angle of Elevation", "Angle of Depression"]
+  },
+  {
+    "id": "class10_unit6",
+    "class_level": 10,
+    "subject": "Mathematics",
+    "unit": "Unit 6: Mensuration",
+    "chapter": "Chapter 10: Surface Areas and Volumes",
+    "topics": ["Cone", "Cylinder", "Sphere", "Frustum", "Applications"]
+  },
+  {
+    "id": "class10_unit7",
+    "class_level": 10,
+    "subject": "Mathematics",
+    "unit": "Unit 7: Statistics and Probability",
+    "chapter": "Chapter 11: Statistics",
+    "topics": ["Mean", "Median", "Mode", "Graphical Representation"]
+  },
+  {
+    "id": "class10_unit7_ch12",
+    "class_level": 10,
+    "subject": "Mathematics",
+    "unit": "Unit 7: Statistics and Probability",
+    "chapter": "Chapter 12: Probability",
+    "topics": ["Experimental Probability", "Simple Events"]
+  },
+  {
+    "id": "class11_unit1",
     "class_level": 11,
     "subject": "Mathematics",
-    "chapter": "Calculus and Advanced Topics",
-    "topics": ["Sets", "Relations and Functions", "Trigonometry", "Complex Numbers", "Linear Inequalities", "Conic Sections"]
+    "unit": "Unit 1: Sets and Functions",
+    "chapter": "Chapter 1: Sets",
+    "topics": ["Types of Sets", "Venn Diagrams", "Operations on Sets", "Complement of a Set"]
+  },
+  {
+    "id": "class11_unit1_ch2",
+    "class_level": 11,
+    "subject": "Mathematics",
+    "unit": "Unit 1: Sets and Functions",
+    "chapter": "Chapter 2: Relations and Functions",
+    "topics": ["Ordered Pairs", "Cartesian Product", "Types of Relations", "Functions and Their Types"]
+  },
+  {
+    "id": "class11_unit1_ch3",
+    "class_level": 11,
+    "subject": "Mathematics",
+    "unit": "Unit 1: Sets and Functions",
+    "chapter": "Chapter 3: Trigonometric Functions",
+    "topics": ["Angles and Their Measurement", "Trigonometric Ratios", "Trigonometric Identities", "Graphs of Trigonometric Functions"]
+  },
+  {
+    "id": "class11_unit2",
+    "class_level": 11,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Algebra",
+    "chapter": "Chapter 4: Complex Numbers and Quadratic Equations",
+    "topics": ["Imaginary Unit", "Algebra of Complex Numbers", "Polar Form", "Quadratic Equations"]
+  },
+  {
+    "id": "class11_unit2_ch5",
+    "class_level": 11,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Algebra",
+    "chapter": "Chapter 5: Linear Inequalities",
+    "topics": ["Inequalities in One Variable", "Inequalities in Two Variables", "Graphical Solutions"]
+  },
+  {
+    "id": "class11_unit2_ch6",
+    "class_level": 11,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Algebra",
+    "chapter": "Chapter 6: Permutations and Combinations",
+    "topics": ["Fundamental Principle of Counting", "Permutations", "Combinations", "Applications"]
+  },
+  {
+    "id": "class11_unit2_ch7",
+    "class_level": 11,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Algebra",
+    "chapter": "Chapter 7: Binomial Theorem",
+    "topics": ["Binomial Expansion", "General Term", "Middle Term", "Applications"]
+  },
+  {
+    "id": "class11_unit2_ch8",
+    "class_level": 11,
+    "subject": "Mathematics",
+    "unit": "Unit 2: Algebra",
+    "chapter": "Chapter 8: Sequences and Series",
+    "topics": ["Arithmetic Progression", "Geometric Progression", "Sum of n Terms", "Special Series"]
+  },
+  {
+    "id": "class11_unit3",
+    "class_level": 11,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Coordinate Geometry",
+    "chapter": "Chapter 9: Straight Lines",
+    "topics": ["Slope of a Line", "Equation of Line", "Angle Between Lines", "Distance Between Points"]
+  },
+  {
+    "id": "class11_unit3_ch10",
+    "class_level": 11,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Coordinate Geometry",
+    "chapter": "Chapter 10: Conic Sections",
+    "topics": ["Circle", "Parabola", "Ellipse", "Hyperbola"]
+  },
+  {
+    "id": "class11_unit3_ch11",
+    "class_level": 11,
+    "subject": "Mathematics",
+    "unit": "Unit 3: Coordinate Geometry",
+    "chapter": "Chapter 11: Introduction to Three-Dimensional Geometry",
+    "topics": ["Coordinate Axes", "Distance Formula", "Section Formula"]
+  },
+  {
+    "id": "class11_unit4",
+    "class_level": 11,
+    "subject": "Mathematics",
+    "unit": "Unit 4: Calculus",
+    "chapter": "Chapter 12: Limits and Derivatives",
+    "topics": ["Limits", "Continuity", "Derivatives", "Basic Rules of Differentiation"]
+  },
+  {
+    "id": "class11_unit5",
+    "class_level": 11,
+    "subject": "Mathematics",
+    "unit": "Unit 5: Mathematical Reasoning",
+    "chapter": "Chapter 13: Mathematical Reasoning",
+    "topics": ["Statements", "Logical Connectives", "Implications", "Valid Arguments"]
+  },
+  {
+    "id": "class11_unit6",
+    "class_level": 11,
+    "subject": "Mathematics",
+    "unit": "Unit 6: Statistics and Probability",
+    "chapter": "Chapter 14: Statistics",
+    "topics": ["Measures of Dispersion", "Range", "Mean Deviation", "Standard Deviation"]
+  },
+  {
+    "id": "class11_unit6_ch15",
+    "class_level": 11,
+    "subject": "Mathematics",
+    "unit": "Unit 6: Statistics and Probability",
+    "chapter": "Chapter 15: Probability",
+    "topics": ["Random Experiments", "Sample Space", "Events", "Probability of Events"]
   },
   {
     "id": "class12",

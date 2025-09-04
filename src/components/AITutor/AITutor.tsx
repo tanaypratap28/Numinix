@@ -1,24 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
 import { Send, Bot, User, Loader } from 'lucide-react';
-import { solveMathProblem, AIResponse } from '../../services/aiService';
+import { solveMathProblem } from '../../services/aiService';
 
-interface Message {
-  id: string;
-  content: string;
-  isUser: boolean;
-  solution?: AIResponse;
-}
+import { useAITutor, Message } from '../../context/AITutorContext';
+
+
 
 export function AITutor() {
-  const [messages, setMessages] = useState<Message[]>([
-    {
-      id: '1',
-      content: "Hi! I'm your AI math tutor. Ask me any math question and I'll provide step-by-step solutions!",
-      isUser: false,
-    },
-  ]);
-  const [input, setInput] = useState('');
-  const [loading, setLoading] = useState(false);
+  const { messages, setMessages, input, setInput, loading, setLoading } = useAITutor();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -91,14 +84,21 @@ export function AITutor() {
                 {message.solution && (
                   <div className="mt-3 p-3 bg-white rounded-lg text-gray-900">
                     <div className="font-semibold text-green-600 mb-2">Solution:</div>
-                    <p className="mb-3">{message.solution.solution}</p>
-                    
-                    <div className="font-semibold text-blue-600 mb-2">Steps:</div>
-                    <ol className="list-decimal list-inside space-y-1">
-                      {message.solution.steps.map((step, index) => (
-                        <li key={index} className="text-sm">{step}</li>
-                      ))}
-                    </ol>
+                    <div className="mb-3 prose prose-sm prose-blue">
+                      <ReactMarkdown
+                        remarkPlugins={[remarkMath]}
+                        rehypePlugins={[rehypeKatex]}
+                      >
+                        {message.solution.solution}
+                      </ReactMarkdown>
+                    </div>
+                    {message.solution.error && (
+                      <div className="mb-3 text-red-600 text-xs">
+                        <strong>Error:</strong> {message.solution.error}
+                      </div>
+                    )}
+      
+                  
                   </div>
                 )}
               </div>

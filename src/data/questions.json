@@ -98,5 +98,165 @@
     "difficulty": "medium",
     "class_level": 8,
     "topic": "Geometry"
+  },
+  {
+    "id": "q11",
+    "question": "Simplify: (x + 3)(x - 2)",
+    "options": ["x² + x - 6", "x² - x - 6", "x² + x + 6", "x² - x + 6"],
+    "correct_answer": "x² + x - 6",
+    "explanation": "Use distributive property: x(x - 2) + 3(x - 2) = x² - 2x + 3x - 6 = x² + x - 6",
+    "difficulty": "medium",
+    "class_level": 9,
+    "topic": "Algebra"
+  },
+  {
+    "id": "q12",
+    "question": "Find the value of x if 3x - 7 = 2x + 5",
+    "options": ["x = 12", "x = -12", "x = 5", "x = -5"],
+    "correct_answer": "x = 12",
+    "explanation": "3x - 7 = 2x + 5 → x = 12",
+    "difficulty": "medium",
+    "class_level": 9,
+    "topic": "Linear Equations"
+  },
+  {
+    "id": "q13",
+    "question": "What is the volume of a cube with side length 4 cm?",
+    "options": ["16 cm³", "32 cm³", "64 cm³", "128 cm³"],
+    "correct_answer": "64 cm³",
+    "explanation": "Volume = side³ = 4³ = 64 cm³",
+    "difficulty": "easy",
+    "class_level": 9,
+    "topic": "Mensuration"
+  },
+  {
+    "id": "q14",
+    "question": "Factorize: x² - 9",
+    "options": ["(x - 3)(x + 3)", "(x - 9)(x + 1)", "(x - 1)(x + 9)", "(x - 3)(x - 3)"],
+    "correct_answer": "(x - 3)(x + 3)",
+    "explanation": "x² - 9 is a difference of squares: x² - 3² = (x - 3)(x + 3)",
+    "difficulty": "easy",
+    "class_level": 9,
+    "topic": "Algebra"
+  },
+  {
+    "id": "q15",
+    "question": "Find the median of: 3, 7, 9, 15, 21",
+    "options": ["7", "9", "15", "21"],
+    "correct_answer": "9",
+    "explanation": "Median is the middle value in an ordered list: 3, 7, 9, 15, 21 → median = 9",
+    "difficulty": "medium",
+    "class_level": 9,
+    "topic": "Statistics"
+  },
+  {
+    "id": "q16",
+    "question": "What is the value of sin 30°?",
+    "options": ["0", "0.5", "1", "√3/2"],
+    "correct_answer": "0.5",
+    "explanation": "By trigonometric identity: sin 30° = 0.5",
+    "difficulty": "medium",
+    "class_level": 9,
+    "topic": "Trigonometry"
+  },
+  {
+    "id": "q17",
+    "question": "Find the HCF of 36 and 60",
+    "options": ["6", "12", "18", "24"],
+    "correct_answer": "12",
+    "explanation": "Factors of 36: 1,2,3,4,6,9,12,18,36; Factors of 60: 1,2,3,4,5,6,10,12,15,20,30,60 → HCF = 12",
+    "difficulty": "medium",
+    "class_level": 9,
+    "topic": "Number Systems"
+  },
+  {
+    "id": "q18",
+    "question": "What is the value of x in x² = 49?",
+    "options": ["x = 7", "x = -7", "x = ±7", "x = 0"],
+    "correct_answer": "x = ±7",
+    "explanation": "x² = 49 → x = ±√49 = ±7",
+    "difficulty": "medium",
+    "class_level": 9,
+    "topic": "Algebra"
+  },
+  {
+    "id": "q19",
+    "question": "Find the surface area of a sphere with radius 3 cm (Use π = 3.14)",
+    "options": ["113.04 cm²", "94.2 cm²", "108 cm²", "120 cm²"],
+    "correct_answer": "113.04 cm²",
+    "explanation": "Surface area = 4πr² = 4 × 3.14 × 9 = 113.04 cm²",
+    "difficulty": "hard",
+    "class_level": 9,
+    "topic": "Mensuration"
+  },
+  {
+    "id": "q20",
+    "question": "What is the value of cos 0°?",
+    "options": ["0", "1", "0.5", "Undefined"],
+    "correct_answer": "1",
+    "explanation": "cos 0° = 1 by trigonometric identity",
+    "difficulty": "easy",
+    "class_level": 9,
+    "topic": "Trigonometry"
+  },
+  {
+    "id": "q21",
+    "question": "Solve: (x - 2)² = 16",
+    "options": ["x = 6 or -2", "x = 4 or 0", "x = 2 or -2", "x = 6 or -2"],
+    "correct_answer": "x = 6 or -2",
+    "explanation": "(x - 2)² = 16 → x - 2 = ±4 → x = 6 or -2",
+    "difficulty": "hard",
+    "class_level": 9,
+    "topic": "Quadratic Equations"
+  },
+  {
+    "id": "q22",
+    "question": "Find the mode of: 2, 4, 4, 6, 7, 4, 9",
+    "options": ["2", "4", "6", "7"],
+    "correct_answer": "4",
+    "explanation": "Mode is the most frequent value → 4 appears 3 times",
+    "difficulty": "easy",
+    "class_level": 9,
+    "topic": "Statistics"
+  },
+  {
+    "id": "q23",
+    "question": "What is the cube root of 125?",
+    "options": ["5", "25", "15", "10"],
+    "correct_answer": "5",
+    "explanation": "∛125 = 5 because 5 × 5 × 5 = 125",
+    "difficulty": "medium",
+    "class_level": 9,
+    "topic": "Number Systems"
+  },
+  {
+    "id": "q24",
+    "question": "Find the perimeter of a triangle with sides 5 cm, 6 cm, and 7 cm",
+    "options": ["18 cm", "16 cm", "17 cm", "15 cm"],
+    "correct_answer": "18 cm",
+    "explanation": "Perimeter = 5 + 6 + 7 = 18 cm",
+    "difficulty": "easy",
+    "class_level": 9,
+    "topic": "Geometry"
+  },
+  {
+    "id": "q25",
+    "question": "What is the value of tan 45°?",
+    "options": ["0", "1", "√2", "Undefined"],
+    "correct_answer": "1",
+    "explanation": "tan 45° = 1 by trigonometric identity",
+    "difficulty": "easy",
+    "class_level": 9,
+    "topic": "Trigonometry"
+  },
+  {
+    "id": "q26",
+    "question": "Solve: x² - 4x + 4 = 0",
+    "options": ["x = 2", "x = 4", "x = -2", "x = ±2"],
+    "correct_answer": "x = 2",
+    "explanation": "x² - 4x + 4 = (x - 2)² → x = 2",
+    "difficulty": "medium",
+    "class_level": 9,
+    "topic": "Quadratic Equations"
   }
 ]

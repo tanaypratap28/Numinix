@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Foundation Explorer",
+    "description": "Master the basics of mathematics",
+    "unlock_cost": 0,
+    "chapters": ["Numbers", "Basic Operations", "Simple Fractions"],
+    "color": "emerald"
+  },
+  {
+    "id": 2,
+    "title": "Number Navigator",
+    "description": "Dive deeper into number systems",
+    "unlock_cost": 150,
+    "chapters": ["Large Numbers", "Factors & Multiples", "Advanced Fractions"],
+    "color": "blue"
+  },
+  {
+    "id": 3,
+    "title": "Geometry Guardian",
+    "description": "Explore shapes and spatial reasoning",
+    "unlock_cost": 300,
+    "chapters": ["Basic Geometry", "Perimeter & Area", "3D Shapes"],
+    "color": "purple"
+  },
+  {
+    "id": 4,
+    "title": "Algebra Ace",
+    "description": "Unlock the power of algebra",
+    "unlock_cost": 500,
+    "chapters": ["Simple Equations", "Linear Equations", "Polynomials"],
+    "color": "orange"
+  },
+  {
+    "id": 5,
+    "title": "Trigonometry Titan",
+    "description": "Master angles and triangles",
+    "unlock_cost": 750,
+    "chapters": ["Trigonometric Ratios", "Heights & Distances", "Identities"],
+    "color": "red"
+  },
+  {
+    "id": 6,
+    "title": "Calculus Champion",
+    "description": "Conquer advanced mathematics",
+    "unlock_cost": 1000,
+    "chapters": ["Limits", "Derivatives", "Integration"],
+    "color": "indigo"
+  }
+]
